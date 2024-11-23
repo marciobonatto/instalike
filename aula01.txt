@@ -1,0 +1,47 @@
+http.cat (Página com os status http)
+
+Banco MongoDB Atlas Login:
+marciobonatto
+uXgjWwF03jbqPGNY
+
+Banco MongoDB Atlas Connection:
+mongodb+srv://marciobonatto:uXgjWwF03jbqPGNY@cluster0.5o4dl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+01 - Versão do node:
+node -v
+node --version
+
+02 - Comando para criar projeto node:
+npm init es6 -y
+
+03 - Instalar pacotes EXPRESS:
+npm install express
+
+04 - Criar arquivo server.js.
+
+05 - Codificar no server.js:
+import express from "express";
+const app = express();
+app.listen(3000, () => {
+  console.log("Servidor escutando...");
+});
+
+06 - No terminal, escrever para iniciar o servidor:
+node server.js
+Reinicia o servidor quando detecta uma alteração:
+node --watch server.js
+
+07 - Para derrubar o servidor, usar Ctrl + C
+
+08 - Para acessar o servidor local, iniciar o servidor e no browser, escrever:
+http://localhost:3000/api
+
+09 - Instalar mongodb:
+npm install mongodb
+
+10 - No terminal, escrever:
+npm run dev
+
+11 - No terminal, para instalar o multer, escrever:
+npm install multer
